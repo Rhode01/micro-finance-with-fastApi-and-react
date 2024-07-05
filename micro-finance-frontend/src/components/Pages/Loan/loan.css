@@ -1,0 +1,18 @@
+.loan-statistics{
+    display: flex;
+    flex-wrap: wrap;
+}
+.graph{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px;
+}
+.active-loan-short{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}

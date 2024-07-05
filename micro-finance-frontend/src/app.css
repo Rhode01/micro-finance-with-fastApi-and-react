@@ -1,0 +1,35 @@
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+}
+.dashboard-body {
+    position: relative;
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+}
+.app-container{
+    display: flex;
+    height: 100vh;
+}
+.dashboard-overview {
+    justify-content: center;
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(5,1fr); */
+    gap: 20px;
+    max-width: 1000px;
+}
+
+.dashboard-card {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
